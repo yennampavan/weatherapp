@@ -49,6 +49,6 @@ body {
     height: 100vh; /* Makes sure the background covers the full viewport height */
     width: 100%;
   }
-  .h1{
+  .red-text{
     color: red;
   }

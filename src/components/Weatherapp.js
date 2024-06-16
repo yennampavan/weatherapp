@@ -60,7 +60,7 @@ const Weatherapp = () => {
                 <input type="text" name={city} onChange={e=>setCity(e.target.value)}/><br />
                 <input className='input' type="submit" value="get temperature" />
             </form>
-            <h1>{result}</h1>
+            <p className='red-text'>{result}</p>
             <p><b>temperature:</b>{temp}°C</p>
             <p><b>min temperature:</b>{mintemp}</p>
             <p><b>max temperature:</b>{maxtemp}</p>
