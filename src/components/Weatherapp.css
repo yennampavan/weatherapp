@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(61, 61, 253, 0.093);
+}
+.card{
+    border: 2px solid black;
+    /* height: 300px; */
+    width: 40%;
+    margin-top: 100px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    
+}
+.input[type="submit"]{
+    background-color: rgba(12, 12, 79, 0.232);
+    border-radius: 35px;
+    color: rgb(0, 0, 0);
+    /* border: none; */
+    margin: 30px;
+    padding: 10px;
+    font-size: 16px;
+}
+.input{
+    background-color: rgba(12, 12, 79, 0.232);
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin: 50px;
+    font-size: 16px;
+}
+.input:hover{
+    background-color: beige;
+    
+}
+.input:active{
+    background-color: rgb(255, 255, 253);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg'); /* Update the path according to your image location */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Makes sure the background covers the full viewport height */
+    width: 100%;
+  }
+  .h1{
+    color: red;
+  }
